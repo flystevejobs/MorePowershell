@@ -1,0 +1,1 @@
+﻿$exchangesession = New-PSSession -configurationname microsoft.exchange -ConnectionUri"https://outlook.office365.com/powershell-liveid/" -Credential $credential -Authentication "basic" -AllowRedirection
